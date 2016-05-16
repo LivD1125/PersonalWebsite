@@ -50,7 +50,9 @@ body {
   background-size: cover;
 }
 
-#about {}
+#about {
+  background-color: lightcyan;
+}
 
 #services {
   background-color: #306d9f;
