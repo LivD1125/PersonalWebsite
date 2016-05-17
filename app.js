@@ -1,7 +1,7 @@
-$(document).ready(function() {
+$(document).ready(function (){
 
   // create a LatLng object containing the coordinate for the center of the map
-  var latlng = new google.maps.LatLng(-33.86455, 151.209);
+  var latlng = new google.maps.LatLng(42.3601, -71.0589);
 
   // prepare the map properties
   var options = {
@@ -19,8 +19,7 @@ $(document).ready(function() {
 
   // add Marker
   var marker1 = new google.maps.Marker({
-    position: latlng,
-    map: map
+    position: latlng, map: map
   });
 
   // add listener for a click on the pin
@@ -30,6 +29,6 @@ $(document).ready(function() {
 
   // add information window
   var infowindow = new google.maps.InfoWindow({
-    content: '<div class="info"><strong>This is my company</strong><br><br>48 Eastwood Road<br> 01545 Shrewsbury</div>'
-  });
+    content:  '<div class="info"><strong>This is my company</strong><br><br>My company address is here<br> 32846 Sydney</div>'
+  });  
 });

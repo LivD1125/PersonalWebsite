@@ -6,6 +6,10 @@ body {
   width: 100%;
 }
 
+.navbar {
+  background-color: lightcyan;
+}
+
 
 /* padded section */
 
@@ -89,14 +93,16 @@ body {
 
 #google_map {
   height: 500px;
+  color: lightcyan;
 }
 
 footer {
   padding: 20px 0;
+  background-color: lightcyan;
 }
 
 footer .glyphicon {
-  color: #333333;
+  color: black;
   font-size: 60px;
 }
 
